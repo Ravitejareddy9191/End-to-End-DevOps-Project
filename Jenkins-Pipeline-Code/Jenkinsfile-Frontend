@@ -82,7 +82,7 @@ pipeline {
         }
         stage('Checkout Code') {
             steps {
-                git credentialsId: 'GITHUB', url: 'https://github.com/AmanPathak-DevOps/End-to-End-DevOps-Project.git'
+                git credentialsId: 'GITHUB', url: 'https://github.com/Ravitejareddy9191/End-to-End-DevOps-Project.git'
             }
         }
         stage('Update Deployment file') {
